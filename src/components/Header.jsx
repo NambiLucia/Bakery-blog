@@ -2,8 +2,8 @@ import React from 'react'
 
  function Header() {
   return (
-    <div>
-      <div className='flex justify-center w-full '>
+    <div className='relative'>
+      <div className='flex justify-center w-full sticky top-0 bg-white shadow-md z-10'>
         <ul className='flex justify-evenly w-10/12 py-8 font-Cinzel text-lg font-bold'>
           <li>Home</li>
           <li>About</li>
