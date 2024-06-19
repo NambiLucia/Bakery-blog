@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Hero from './Hero';
 import Pastry from './Pastry';
 import Brownie from './Brownie';
+import Cake from './Cake';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Header />
       <Pastry />
       <Brownie />
+      <Cake />
       <Footer />
     </div>
   );
