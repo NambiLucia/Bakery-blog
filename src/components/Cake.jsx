@@ -25,14 +25,19 @@ function Cake() {
 
   return (
     <div>
-      <Header />
-      <div>
+    
+      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 p-12 '>
             {cake.length >0? (
                 cake.map((element) =>{
                     return(
-                        <div key={element.id}>
+                        <div key={element.id} className='mx-8'>
                      <h2>{element.attributes.title}</h2>  
                      <br />
+                     <img 
+                     src={`http://localhost:1337${element.attributes.image.data[0].attributes.url}`}
+                     alt="bundtcake"
+                     className='flex h-80 object-cover m-8 rounded-md'/>
+
                      <h3>INGREDIENTS:</h3> 
                      <p>{element.attributes.ingredients}</p>   <br />
                      <h3>INSTRUCTIONS:</h3>  
