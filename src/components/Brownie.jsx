@@ -1,4 +1,5 @@
 import React , { useState,useEffect }  from 'react'
+import { Link } from 'react-router-dom';
 
  function Brownie() {
     const[brownie, setBrownie]=useState([]);
@@ -39,13 +40,13 @@ import React , { useState,useEffect }  from 'react'
                          </a>
 
 
-                       <a href={element.attributes.link}
-                       target="_blank">
+                       <Link to={element.attributes.link}
+                       >
                         <h2 className='text-center font-Cinzel italic text-2xl font-normal'>{element.attributes.title}</h2>
-                       </a> 
+                       </Link> 
 
 
-
+                
 
 
 
