@@ -6,6 +6,7 @@ import Cupcake from './components/Cupcake';
 import Cookie from './components/Cookie';
 import Fudgy from './components/Fudgy';
 import Coffee from './components/Coffee';
+import Chocolate from './components/Chocolate';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cookie" element={<Cookie />} />
           <Route path="/fudgy" element={<Fudgy />} />
           <Route path="/coffee" element={<Coffee />} />
+          <Route path="/chocolate" element={<Chocolate />} />
 
       
         </Routes>
