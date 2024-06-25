@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
       <div className='flex justify-center w-full sticky top-0 bg-white shadow-md z-10'>
         <ul className='flex justify-evenly w-10/12 py-8 font-Cinzel text-lg font-bold'>
         <Link to="/"><li>Home</li></Link>  
-          <li>About</li>
+          <li> <Link to="/About">About</Link></li>
           <li>Recipes</li>
           <li>Baking 101</li>
 
