@@ -37,7 +37,7 @@ function Cake() {
                      <img 
                      src={`http://localhost:1337${element.attributes.image.data[0].attributes.url}`}
                      alt="bundtcake"
-                     className='flex h-80 object-cover m-8 rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 mx-auto'/>
+                     className='flex h-80 object-cover m-8 rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300 mx-auto'/>
 
                      <h3 className='text-center font-Cinzel text-xl font-bold'>INGREDIENTS:</h3> 
                      <p>{element.attributes.ingredients}</p>   <br />

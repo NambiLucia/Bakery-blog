@@ -8,6 +8,7 @@ import Fudgy from './components/Fudgy';
 import Coffee from './components/Coffee';
 import Chocolate from './components/Chocolate';
 import About from './components/About';
+import Recipe from './components/Recipe';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/coffee" element={<Coffee />} />
           <Route path="/chocolate" element={<Chocolate />} />
           <Route path="/about" element={<About />} />
+          <Route path="/recipe" element={<Recipe />} />
 
       
         </Routes>
