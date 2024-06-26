@@ -10,8 +10,8 @@ function Footer() {
             <li>
               <Link to="/" className="hover:underline m-8">Home</Link>
             </li>
-            <li className="hover:underline m-8">About</li>
-            <li className="hover:underline m-8">Recipes</li>
+            <li className="hover:underline m-8"><Link to="/About">About</Link></li>
+            <li className="hover:underline m-8"><Link to="/Recipe">Recipes</Link></li>
           </ul>
         </div>
 
