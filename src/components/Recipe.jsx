@@ -37,7 +37,7 @@ function Recipe() {
                 <img
                   src={`http://localhost:1337${element.attributes.image.data[0].attributes.url}`}
                   alt="image"
-                  className="flex flex-wrap w-3/4 h-80 object-cover m-8 rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300 justify-center items-center
+                  className="flex flex-wrap w-3/4 h-80 object-cover m-8 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 justify-center items-center
                         opacity-80"
                 />
                 <div className="absolute">
