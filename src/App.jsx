@@ -10,6 +10,7 @@ import Chocolate from './components/Chocolate';
 import About from './components/About';
 import Recipe from './components/Recipe';
 import Blog from './components/Blog';
+import Blog2 from './components/Blog2';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/recipe" element={<Recipe />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog2" element={<Blog2 />} />
 
       
         </Routes>

@@ -4,15 +4,15 @@ import Footer from "./Footer";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-function Blog() {
-  const [blog, setBlog] = useState([]);
+function Blog2() {
+  const [blog2, setBlog2] = useState([]);
   useEffect(() => {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "http://localhost:1337/api/blog1s?populate=*"
+          "http://localhost:1337/api/blog2s?populate=*"
         );
-        setBlog(response.data.data);
+        setBlog2(response.data.data);
       } catch (error) {
         console.log(error);
       }
@@ -23,8 +23,8 @@ function Blog() {
     <div>
       <Header />
       <div>
-        {blog.length > 0 ? (
-          blog.map((element) => {
+        {blog2.length > 0 ? (
+          blog2.map((element) => {
             return (
               <div
                 key={element.id}
@@ -52,18 +52,14 @@ function Blog() {
           <p>Loading...</p>
         )}
       </div>
-          <h2 className="text-bold font-Lato text-lg">You might also like</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-2">
-        
-     <div>
-     <Link to="/Blog2"> <h5 className="text-center text-3xl text-black font-bold m-8 font-Lato hover:underline">Whip It, Fold It, Cream It: Conquering Mixing Methods in the Kitchen</h5></Link>
-          <p className="text-center font-Lato m-8">This article dives into the world of mixing methods, a crucial factor in achieving the perfect texture for your baked goods....</p>
 
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-2">
+        <h2 className="text-bold font-Lato text-lg">You might also like</h2>
+        <div></div>
       </div>
 
       <Footer />
     </div>
   );
 }
-export default Blog;
+export default Blog2;
