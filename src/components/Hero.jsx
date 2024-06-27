@@ -28,10 +28,14 @@ import React, { useState,useEffect } from 'react'
         {hero.length > 0?
 (hero.map((element) =>(  
     <div key={element.id}  className='relative'>
-        <img 
+        <video 
         src={`http://localhost:1337${element.attributes.image.data[0].attributes.url}`} 
-        alt="hero" 
-        className='h-auto w-full object-cover opacity-80'/>
+        alt="baking video" 
+        className='h-auto w-full object-cover opacity-80'
+        autoPlay
+        loop
+        muted
+        controls/>
 
         <div className='absolute inset-0  flex items-center justify-center mb-20'>
             <h1 className='text-2xl sm:text-4xl md:text-6xl lg:text-8xl font medium font-Cinzel text-white text-center italic'>SUKARI-SANA
