@@ -29,7 +29,7 @@ export default function Chocolate() {
 
 <Header />
     
-    <div className='flex items-center justify-center p-12 '>
+    <div className='flex items-center justify-center p-12 bg-[#ffead9]'>
           {chocolate.length >0? (
              chocolate.map((element) =>{
                   return(

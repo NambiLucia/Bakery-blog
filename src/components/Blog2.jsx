@@ -29,7 +29,7 @@ function Blog2() {
             return (
               <div
                 key={element.id}
-                className="flex flex-wrap items-center justify-center relative"
+                className="flex flex-wrap items-center justify-center relative bg-[#ffead9]"
               >
                 <h2 className="text-center text-3xl text-black font-bold m-8 font-Cinzel italic">
                   {element.attributes.title}

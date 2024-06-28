@@ -26,7 +26,7 @@ import Footer from './Footer';
     <div>
       <Header />
     
-    <div className='flex items-center justify-center p-12 '>
+    <div className='flex items-center justify-center p-12 bg-[#ffead9]'>
           {coffee.length >0? (
               coffee.map((element) =>{
                   return(

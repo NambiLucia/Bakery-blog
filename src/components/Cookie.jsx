@@ -27,7 +27,7 @@ function Cookie() {
     <div>
       <Header />
     
-      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 p-12 '>
+      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 p-12 bg-[#ffead9]'>
             {cookie.length >0? (
                 cookie.map((element) =>{
                     return(

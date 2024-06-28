@@ -21,7 +21,7 @@ function Recipe() {
     fetchData();
   }, []);
   return (
-    <div>
+    <div className="bg-[#ffead9]">
       <Header />
       <div>
         <h1 className="text-lg font-bold m-8 font-Cinzel text-center">
@@ -32,7 +32,7 @@ function Recipe() {
             return (
               <div
                 key={element.id}
-                className="flex flex-wrap items-center justify-center relative"
+                className="flex flex-wrap items-center justify-center relative "
               >
                 <img
                   src={`http://localhost:1337${element.attributes.image.data[0].attributes.url}`}

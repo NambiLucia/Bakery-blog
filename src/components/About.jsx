@@ -24,15 +24,15 @@ import axios from 'axios';
     },[])
   
   return (
-    <div>
+    <div className='bg-[#ffead9]'>
         <Header />
-       <h2 className='text-lg font-bold m-8 font-Cinzel text-center'>About Me and Sukari-Sana</h2> 
-      <div className='flex items-center justify-center p-12 '>
+       <h2 className='text-lg font-bold m-8 font-Cinzel text-center bg-[#ffead9]'>About Me and Sukari-Sana</h2> 
+      <div className='flex items-center justify-center p-12 bg-[#ffead9]'>
         
         {about.length > 0 ? 
         (about.map((element)=>{
             return (
-                <div key={element.id} className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6'>
+                <div key={element.id} className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 '>
                     
                     <div>
                        <p className="text-lg font-semi m-8 font-Lato">{element.attributes.intro}</p> 

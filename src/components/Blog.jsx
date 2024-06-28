@@ -23,7 +23,7 @@ function Blog() {
   return (
     <div>
       <Header />
-      <div>
+      <div className="bg-[#ffead9]">
         {blog.length > 0 ? (
           blog.map((element) => {
             return (

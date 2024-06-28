@@ -8,7 +8,7 @@ import Brownie from './Brownie';
 
 function Home() {
   return (
-    <div>
+    <div className='bg-[#ffead9]'>
       <Hero />
       <Header />
       <Pastry />
