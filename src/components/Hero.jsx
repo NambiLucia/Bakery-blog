@@ -38,7 +38,7 @@ import React, { useState,useEffect } from 'react'
         controls/>
 
         <div className='absolute inset-0  flex items-center justify-center mb-20'>
-            <h1 className='text-2xl sm:text-4xl md:text-6xl lg:text-8xl font medium font-Cinzel text-white text-center italic'>SUKARI-SANA
+            <h1 className='text-2xl sm:text-4xl md:text-6xl lg:text-8xl font-extrabold font-Cinzel text-white text-center italic'>SUKARI-SANA
            
             </h1>
             

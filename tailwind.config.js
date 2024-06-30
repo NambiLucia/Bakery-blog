@@ -11,6 +11,7 @@ export default {
         'custom-grey': '#303030',
         'custom-yellow': '#ffc966',
         'custom-grey': '#232323',
+        'custom-green': '#01746c',
       },
       fontFamily: {
         'Cinzel': ['Cinzel'],

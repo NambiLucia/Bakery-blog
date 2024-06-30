@@ -42,7 +42,7 @@ import axios from 'axios';
                         <img 
                         src={`http://localhost:1337${element.attributes.image.data[0].attributes.url}`}
                         alt="Image" 
-                        className='flex w-1/2 h- object-cover mb-8 rounded-lg ml-12   '/>
+                        className='flex w-1/2 h- object-cover mb-8 rounded-lg ml-12'/>
                         
                     </div>
 
